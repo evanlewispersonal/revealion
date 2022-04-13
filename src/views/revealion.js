@@ -6,42 +6,42 @@ const Icons = require('./components/icons')
 let image_pairs = [
     {
         bottom: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/birds_colour.jpg',
+            image: 'images/birds_colour.jpg',
             alt: 'Five birds on branches of a tree',
         },
         top: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/birds_bw.jpg',
+            image: 'images/birds_bw.jpg',
             alt: 'Five birds on branches of a tree. Graphite filter'
         },
         // shift: 6.1,
     },
     {
         bottom: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/flowers.jpg',
+            image: 'images/flowers.jpg',
             alt: 'A dozen rainbow roses viewed from the top',
         },
         top: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/flowers_bw.jpg',
+            image: 'images/flowers_bw.jpg',
             alt: 'A dozen rainbow roses viewed from the top. Black and White',
         },
     },
     {
         bottom: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/riverboat.jpg',
+            image: 'images/riverboat.jpg',
             alt: 'A red boad floating past coloured apartment blocks',
         },
         top: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/riverboat_bw.jpg',
+            image: 'images/riverboat_bw.jpg',
             alt: 'A red boad floating past coloured apartment blocks. Black and White',
         },
     },
     {
         bottom: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/fruitsalad.jpg',
+            image: 'images/fruitsalad.jpg',
             alt: 'Small fruit including strawberrys, kiwi fruit and oranges on little wooden skewers',
         },
         top: {
-            image: 'https://evanclewisimages.s3.ap-southeast-2.amazonaws.com/fruitsalad_bw.jpg',
+            image: 'images/fruitsalad_bw.jpg',
             alt: 'Small fruit including strawberrys, kiwi fruit and oranges on little wooden skewers. Black and White',
         },
     },
