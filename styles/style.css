@@ -94,9 +94,9 @@ body {
 }
 
 
+/* Buttons */
 
-
-.revealion .flip_section {
+.revealion_buttons {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -104,7 +104,7 @@ body {
     gap: 10px
 }
 
-.revealion .flip_section>* {
+.revealion_buttons>* {
     cursor: pointer;
     width: 50px;
     height: 50px;
@@ -115,14 +115,14 @@ body {
     background: var(--secondary);
 }
 
-.revealion .flip_section svg {
+.revealion_buttons svg {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.revealion .flip.flip_colour {
+.revealion_buttons .flip.flip_colour {
     background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
     ;
 

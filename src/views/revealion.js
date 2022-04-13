@@ -131,7 +131,7 @@ let Revealion = {
                 )
             ),
 
-            m('.flip_section',
+            m('.revealion_buttons',
                 m('.flip',
                     {
                         class: vnode.state.flipped ? 'flip_colour' : '',
