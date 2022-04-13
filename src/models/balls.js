@@ -60,7 +60,6 @@ const Ball = class {
         })
 
 
-
         //ball radius = 10% / 10
         this.x += this.v_x / (this.framerate ** 1)
         this.y += this.v_y / (this.framerate ** 1)
@@ -96,9 +95,6 @@ const Ball = class {
 
         //ball and this
 
-        let v_other_ball = Math.sqrt(ball.v_x ** 2 + ball.v_y)
-        let v_this = Math.sqrt(this.v_x ** 2 + this.v_y)
-
         let collision_angle = -((mymaths.get_angle([ball.x, ball.y], [this.x, this.y]))) % (2 * Math.PI)
 
 
@@ -119,11 +115,7 @@ const Ball = class {
 
             this.v_y = new_v_pa_2 * Math.sin(collision_angle) + v_pe_2 * Math.cos(collision_angle)
 
-
-
-
         }
-
     }
 }
 

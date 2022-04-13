@@ -6,6 +6,16 @@ const Icons = require('./components/icons')
 let image_pairs = [
     {
         bottom: {
+            image: 'images/flowers.jpg',
+            alt: 'A dozen rainbow roses viewed from the top',
+        },
+        top: {
+            image: 'images/flowers_bw.jpg',
+            alt: 'A dozen rainbow roses viewed from the top. Black and White',
+        },
+    },
+    {
+        bottom: {
             image: 'images/birds_colour.jpg',
             alt: 'Five birds on branches of a tree',
         },
@@ -15,16 +25,7 @@ let image_pairs = [
         },
         // shift: 6.1,
     },
-    {
-        bottom: {
-            image: 'images/flowers.jpg',
-            alt: 'A dozen rainbow roses viewed from the top',
-        },
-        top: {
-            image: 'images/flowers_bw.jpg',
-            alt: 'A dozen rainbow roses viewed from the top. Black and White',
-        },
-    },
+
     {
         bottom: {
             image: 'images/riverboat.jpg',
@@ -52,7 +53,7 @@ let all_balls = [
     new Ball(70, 15)
 ]
 
-let funky_background = {
+let Revealion = {
     oninit: (vnode) => {
         vnode.state.image_number = 0
         vnode.state.angle = 0
@@ -75,13 +76,11 @@ let funky_background = {
     view: vnode => {
 
         return [
-            // 'FUNKY',
-
-            m('.funky',
+            m('.revealion',
                 {
                     onmousemove: (e) => {
 
-                        let box = document.getElementById('funky_chameleon')
+                        let box = document.getElementById('revealion_id')
 
                         var rect = box.getBoundingClientRect();
                         var x = e.clientX - rect.left; //x position within the element.
@@ -91,7 +90,7 @@ let funky_background = {
                         vnode.state.cursorX = 100 * x / box.clientWidth
                         vnode.state.cursorY = 100 * y / box.clientHeight
                     },
-                    id: 'funky_chameleon',
+                    id: 'revealion_id',
                     role: 'img',
                     alt: 'A graphite picture of birds. two balls bounce around the image revealing a coloured image underneath.',
                     style: vnode.attrs.angle != 0 ? 'transform: rotate(' + vnode.attrs.angle + 'deg)' : '',
@@ -196,4 +195,4 @@ const bottom_image = {
     }
 }
 
-module.exports = funky_background
+module.exports = Revealion
