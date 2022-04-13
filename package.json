@@ -1,0 +1,29 @@
+{
+  "name": "revealion",
+  "version": "1.0.0",
+  "description": "A demo for the mithril.js Revealion animation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./src --output-filename=bundle.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanlewispersonal/revealion.git"
+  },
+  "author": "Evan C Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanlewispersonal/revealion/issues"
+  },
+  "homepage": "https://github.com/evanlewispersonal/revealion#readme",
+  "dependencies": {
+    "mithril": "^2.0.4",
+    "npm": "^8.5.4",
+    "npm-watch": "^0.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
