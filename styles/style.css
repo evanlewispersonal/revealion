@@ -18,7 +18,13 @@ body {
     height: 100%
 }
 
+/* General */
 
+.invisible_cursor {
+    cursor: none;
+}
+
+/* Revealio */
 
 @media only screen and (min-width: 600px) {
     .revealion {
