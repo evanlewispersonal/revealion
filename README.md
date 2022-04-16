@@ -1,5 +1,5 @@
 # Revealion
-An demo for revealing images.
+A demo for revealing images.
 
 HTML
 CSS
