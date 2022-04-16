@@ -1,5 +1,5 @@
 # Revealion
-A demo for revealing images.
+A component for revealing images.
 
 Try it in action - https://www.evanclewis.com/
 
