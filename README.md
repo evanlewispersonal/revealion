@@ -1,6 +1,8 @@
 # Revealion
 A demo for revealing images.
 
+Try it in action - https://www.evanclewis.com/
+
 HTML
 CSS
 Mithril.js
